@@ -53,7 +53,7 @@ url <- imgflipr::caption_image(
 url
 ```
 
-For now, just visit the link to your captioned image, it's that easy! Alternatively, you can include the captioned images in R markdown by passing the URL to `knitr::include_graphics()`:
+For now, just visit the link to your captioned image, it's that easy! Alternatively, you can include the captioned image in R markdown by passing the resulting URL to `knitr::include_graphics()`:
 
 ```{r view-image, out.width="50%", fig.align="center"}
 knitr::include_graphics(url)
