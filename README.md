@@ -4,7 +4,8 @@
 # imgflipr
 
 The goal of imgflipr is to, you guessed it, interact with the official
-[Imgflip API](https://api.imgflip.com/) through R.
+[Imgflip API](https://api.imgflip.com/) through R. For making custom
+memes, check out the R 📦 [meme](https://github.com/GuangchuangYu/meme/).
 
 ## Installation
 
@@ -55,7 +56,7 @@ imgflipr::caption_image(
   text0 = "Damn it, Robin",
   browse = FALSE  # don't open the captioned image in a browser
 )
-#> [1] "https://i.imgflip.com/2tfanr.jpg"
+#> [1] "https://i.imgflip.com/2tfbao.jpg"
 ```
 
 For now, just visit the link to your captioned image, it’s that easy\!
