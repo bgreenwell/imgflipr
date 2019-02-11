@@ -1,0 +1,23 @@
+Package: arthur
+Title: Utility Functions for Working with R/Rstudio in Agatha
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Brandon", "Greenwell", 
+          email = "Brandon.Greenwell@8451.com",
+          role = c("aut", "cre"))
+  )
+Description: Utility functions for working with R/Rstudio in Agatha.
+Depends: R (>= 3.4.4)
+Imports:
+    googleAuthR,
+    googleCloudStorageR,
+    httr,
+    jsonlite,
+    reticulate,
+    utils
+Suggests:
+    tuneR
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0

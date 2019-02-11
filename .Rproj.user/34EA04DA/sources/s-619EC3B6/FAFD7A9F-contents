@@ -1,0 +1,19 @@
+Package: imgflipr
+Type: Package
+Title: An R Wrapper to the Official Imgflip API
+Version: 0.1.0
+Authors@R: c(
+  person("Brandon", "Greenwell", 
+          email = "Brandon.Greenwell@8451.com",
+          role = c("aut", "cre"))
+  )
+Description: An R Wrapper to the Official Imgflip API.
+License: GPL (>= 2)
+Imports:
+    httr,
+    jsonlite,
+    tibble,
+    utils
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

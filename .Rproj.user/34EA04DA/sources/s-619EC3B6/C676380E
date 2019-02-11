@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549917197721.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C676380E",
+    "lastKnownWriteTime" : 1549918936,
+    "last_content_update" : 1549918936913,
+    "path" : "~/Desktop/devel/imgflipr/R/get_memes.R",
+    "project_path" : "R/get_memes.R",
+    "properties" : {
+        "cursorPosition" : "19,39",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

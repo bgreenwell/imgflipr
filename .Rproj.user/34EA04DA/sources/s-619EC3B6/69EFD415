@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549917552205.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "69EFD415",
+    "lastKnownWriteTime" : 1549919533,
+    "last_content_update" : 1549919533887,
+    "path" : "~/Desktop/devel/imgflipr/R/caption_image.R",
+    "project_path" : "R/caption_image.R",
+    "properties" : {
+        "cursorPosition" : "64,5",
+        "scrollLine" : "37",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

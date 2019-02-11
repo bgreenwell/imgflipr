@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549919071566.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1504797714",
+    "id" : "EE642683",
+    "lastKnownWriteTime" : 1549919621,
+    "last_content_update" : 1549919728062,
+    "path" : "~/Desktop/devel/imgflipr/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+        "cursorPosition" : "48,15",
+        "last_setup_crc32" : "619EC3B6ebd474af",
+        "scrollLine" : "35"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
