@@ -67,8 +67,8 @@ caption_image <- function(
   )
   parsed <- httr::content(res, as = "parsed")
   if (browse) {
-    utils::browseURL(parsed$url)
+    utils::browseURL(parsed$data$url)
   } else {
-    parsed$url
+    parsed$data$url
   }
 }

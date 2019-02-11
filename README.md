@@ -55,7 +55,7 @@ imgflipr::caption_image(
   text0 = "Damn it, Robin",
   browse = FALSE  # don't open the captioned image in a browser
 )
-#> NULL
+#> [1] "https://i.imgflip.com/2tfanr.jpg"
 ```
 
 For now, just visit the link to your captioned image, it’s that easy\!
