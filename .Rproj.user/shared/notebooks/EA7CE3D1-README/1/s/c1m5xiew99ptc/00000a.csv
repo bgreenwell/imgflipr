@@ -1,9 +1,0 @@
-"0","imgflipr::caption_image("
-"0","  template_id = batman, "
-"0","  username = Sys.getenv(""IMGFLIP_USERNAME""), "
-"0","  password = Sys.getenv(""IMGFLIP_PASSWORD""), "
-"0","  text0 = ""Damn it, Robin"","
-"0","  browse = FALSE  # don't open the captioned image in a browser"
-"0",")"
-"1","NULL
-"

@@ -19,7 +19,7 @@ The goal of imgflipr is to, you guessed it, interact with the official [Imgflip 
 
 ## Installation
 
-Currently, you can only install this packaghe from GitHub:
+Currently, you can only install this package from GitHub:
 
 ```{r, eval=FALSE}
 devtools::install_github("bgreenwell/imgflipr")
@@ -34,15 +34,15 @@ memes <- imgflipr::get_memes()
 memes
 ```
 
-Grab the ID for a marticular image:
+Grab the ID for a particular image:
 
 ```{r memes}
 batman <- memes[memes$name == "Batman Slapping Robin", "id"]
 ```
 
-Caption this image (note, I have my [Imgflip](https://imgflip.com/) username and password stored as an environment variable in my `.Renviron` file:
+Caption this image (note, I have my [Imgflip](https://imgflip.com/) username and password stored as an environment variable in my `.Renviron` file):
 
-```{r pressure, echo = FALSE}
+```{r caption-image}
 imgflipr::caption_image(
   template_id = batman, 
   username = Sys.getenv("IMGFLIP_USERNAME"), 
