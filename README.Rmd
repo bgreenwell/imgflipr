@@ -43,13 +43,19 @@ batman <- memes[memes$name == "Batman Slapping Robin", "id"]
 Caption this image (note, I have my [Imgflip](https://imgflip.com/) username and password stored as an environment variable in my `.Renviron` file):
 
 ```{r caption-image}
-imgflipr::caption_image(
+url <- imgflipr::caption_image(
   template_id = batman, 
   username = Sys.getenv("IMGFLIP_USERNAME"), 
   password = Sys.getenv("IMGFLIP_PASSWORD"), 
   text0 = "Damn it, Robin",
   browse = FALSE  # don't open the captioned image in a browser
 )
+url
 ```
 
-For now, just visit the link to your captioned image, it's that easy!
+For now, just visit the link to your captioned image, it's that easy! Alternatively, you can include the captioned images in R markdown by passing the URL to `knitr::include_graphics()`:
+
+```{r view-image, out.width="50%", fig.align="center"}
+knitr::include_graphics(url)
+```
+

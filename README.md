@@ -49,14 +49,24 @@ username and password stored as an environment variable in my
 `.Renviron` file):
 
 ``` r
-imgflipr::caption_image(
+url <- imgflipr::caption_image(
   template_id = batman, 
   username = Sys.getenv("IMGFLIP_USERNAME"), 
   password = Sys.getenv("IMGFLIP_PASSWORD"), 
   text0 = "Damn it, Robin",
   browse = FALSE  # don't open the captioned image in a browser
 )
-#> [1] "https://i.imgflip.com/2tfbao.jpg"
+url
+#> [1] "https://i.imgflip.com/2tfcpi.jpg"
 ```
 
 For now, just visit the link to your captioned image, it’s that easy\!
+Alternatively, you can include the captioned images in R markdown by
+passing the URL to
+`knitr::include_graphics()`:
+
+``` r
+knitr::include_graphics(url)
+```
+
+<img src="https://i.imgflip.com/2tfcpi.jpg" width="50%" style="display: block; margin: auto;" />
