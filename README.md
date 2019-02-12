@@ -53,11 +53,11 @@ url <- imgflipr::caption_image(
   template_id = batman, 
   username = Sys.getenv("IMGFLIP_USERNAME"), 
   password = Sys.getenv("IMGFLIP_PASSWORD"), 
-  text0 = "Damn it, Robin",
-  browse = FALSE  # don't open the captioned image in a browser
+  text0 = "When should I use pie charts?",
+  text1 = "Never!"
 )
 url
-#> [1] "https://i.imgflip.com/2tfcto.jpg"
+#> [1] "https://i.imgflip.com/2tg1dm.jpg"
 ```
 
 For now, just visit the link to your captioned image, it’s that easy\!
@@ -69,4 +69,4 @@ passing the resulting URL to
 knitr::include_graphics(url)
 ```
 
-<img src="https://i.imgflip.com/2tfcto.jpg" width="50%" style="display: block; margin: auto;" />
+<img src="https://i.imgflip.com/2tg1dm.jpg" width="50%" style="display: block; margin: auto;" />

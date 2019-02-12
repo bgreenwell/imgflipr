@@ -47,8 +47,8 @@ url <- imgflipr::caption_image(
   template_id = batman, 
   username = Sys.getenv("IMGFLIP_USERNAME"), 
   password = Sys.getenv("IMGFLIP_PASSWORD"), 
-  text0 = "Damn it, Robin",
-  browse = FALSE  # don't open the captioned image in a browser
+  text0 = "When should I use pie charts?",
+  text1 = "Never!"
 )
 url
 ```
